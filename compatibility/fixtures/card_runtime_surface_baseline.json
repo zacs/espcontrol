@@ -2708,6 +2708,39 @@
       }
     },
     {
+      "name": "notification: notification",
+      "sourceKind": "contract",
+      "sourceType": "notification",
+      "mode": "notification",
+      "canonicalType": "notification",
+      "web": {
+        "registration": "notification",
+        "picker": {
+          "main": true,
+          "subpage": true,
+          "infoOnly": true
+        },
+        "preview": {
+          "available": true,
+          "fingerprint": "77ac1c0abd8a84aa"
+        }
+      },
+      "firmware": {
+        "family": "NOTIFICATION"
+      },
+      "lifecycle": {
+        "subscriptions": [
+          "state",
+          "attributes"
+        ],
+        "actions": [
+          "modal",
+          "home_assistant_service"
+        ],
+        "modalOwner": "notification"
+      }
+    },
+    {
       "name": "weather_forecast: legacy_forecast",
       "sourceKind": "contract",
       "sourceType": "weather_forecast",

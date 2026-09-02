@@ -10,9 +10,9 @@
   },
   "summary": {
     "deviceProfiles": 7,
-    "cardTypes": 42,
+    "cardTypes": 43,
     "entityNames": 101,
-    "icons": 335,
+    "icons": 338,
     "structuralIcons": 20,
     "compatibilityFixtureGroups": 2
   },
@@ -1439,7 +1439,8 @@
       "normalize_switch_options",
       "normalize_sensor_fields",
       "normalize_sensor_options",
-      "normalize_vacuum_fields"
+      "normalize_vacuum_fields",
+      "normalize_notification_options"
     ],
     "fields": [
       "entity",
@@ -1494,7 +1495,8 @@
         "subpage",
         "weather",
         "image",
-        "wifi_qr"
+        "wifi_qr",
+        "notification"
       ],
       "capabilities": [
         "informationOnly",
@@ -2033,6 +2035,18 @@
             "numericControl": false,
             "modal": false,
             "runtimeAllocation": false,
+            "subpage": true
+          }
+        },
+        "notification": {
+          "driver": "notification",
+          "capabilities": {
+            "informationOnly": true,
+            "subscriptions": true,
+            "actions": true,
+            "numericControl": false,
+            "modal": true,
+            "runtimeAllocation": true,
             "subpage": true
           }
         }
@@ -5857,6 +5871,91 @@
           "options": ""
         }
       },
+      "notification": {
+        "label": "Notification",
+        "allowInSubpage": true,
+        "domains": [
+          "sensor",
+          "text_sensor",
+          "binary_sensor"
+        ],
+        "options": [
+          {
+            "name": "level_attribute",
+            "label": "Level Attribute",
+            "kind": "text",
+            "defaultValue": "notification_level",
+            "omitDefault": true
+          },
+          {
+            "name": "message_attribute",
+            "label": "Message Attribute",
+            "kind": "text",
+            "defaultValue": "",
+            "omitDefault": true
+          },
+          {
+            "name": "ack_action",
+            "label": "Acknowledge Action",
+            "kind": "text",
+            "defaultValue": "",
+            "omitDefault": true
+          }
+        ],
+        "normalization": {
+          "fields": {
+            "entity": {
+              "policy": "keep"
+            },
+            "label": {
+              "policy": "keep"
+            },
+            "icon": {
+              "policy": "default",
+              "value": "Auto"
+            },
+            "icon_on": {
+              "policy": "default",
+              "value": "Auto"
+            },
+            "sensor": {
+              "policy": "clear"
+            },
+            "unit": {
+              "policy": "clear"
+            },
+            "type": {
+              "policy": "default",
+              "value": "notification"
+            },
+            "precision": {
+              "policy": "clear"
+            },
+            "options": {
+              "policy": "hook",
+              "hook": "normalize_notification_options"
+            }
+          },
+          "unknownOptions": "drop",
+          "canonicalOptionOrder": [
+            "level_attribute",
+            "message_attribute",
+            "ack_action"
+          ],
+          "optionHook": "normalize_notification_options"
+        },
+        "default": {
+          "entity": "",
+          "label": "",
+          "icon": "Auto",
+          "icon_on": "Auto",
+          "sensor": "",
+          "unit": "",
+          "type": "notification",
+          "precision": "",
+          "options": ""
+        }
+      },
       "weather_forecast": {
         "label": "Weather Forecast",
         "allowInSubpage": true,
@@ -7447,6 +7546,16 @@
         "mdi": "alarm-light"
       },
       {
+        "name": "Alert",
+        "codepoint": "F0026",
+        "mdi": "alert"
+      },
+      {
+        "name": "Alert Octagon",
+        "codepoint": "F0029",
+        "mdi": "alert-octagon"
+      },
+      {
         "name": "Application",
         "codepoint": "F0614",
         "mdi": "application-outline"
@@ -8045,6 +8154,11 @@
         "name": "Humidity Alert",
         "codepoint": "F1509",
         "mdi": "water-percent-alert"
+      },
+      {
+        "name": "Information",
+        "codepoint": "F02FC",
+        "mdi": "information"
       },
       {
         "name": "Iron",
@@ -9131,6 +9245,17 @@
           "type": "alarm",
           "precision": "",
           "options": "pin_arm=0,actions=away%7Cdisarm"
+        },
+        "notification": {
+          "entity": "sensor.house_notice",
+          "label": "House Notice",
+          "icon": "Auto",
+          "icon_on": "Auto",
+          "sensor": "",
+          "unit": "",
+          "type": "notification",
+          "precision": "",
+          "options": "level_attribute=severity,ack_action=script.ack_notice"
         }
       },
       "subpage": {

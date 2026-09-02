@@ -178,6 +178,16 @@
       "mdi": "alarm-light"
     },
     {
+      "name": "Alert",
+      "codepoint": "F0026",
+      "mdi": "alert"
+    },
+    {
+      "name": "Alert Octagon",
+      "codepoint": "F0029",
+      "mdi": "alert-octagon"
+    },
+    {
       "name": "Application",
       "codepoint": "F0614",
       "mdi": "application-outline"
@@ -776,6 +786,11 @@
       "name": "Humidity Alert",
       "codepoint": "F1509",
       "mdi": "water-percent-alert"
+    },
+    {
+      "name": "Information",
+      "codepoint": "F02FC",
+      "mdi": "information"
     },
     {
       "name": "Iron",

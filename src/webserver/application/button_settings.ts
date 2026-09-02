@@ -791,6 +791,7 @@ export function createButtonSettingsFeature(
             requireField: requireField,
             requireEntityDomain: requireEntityDomain,
             clearFieldError: clearFieldError,
+            showFieldError: showFieldError,
             toggleRow: toggleRow,
             cardSize: c.sizes[slot] || 1,
             idPrefix: idPrefix,

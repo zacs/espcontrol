@@ -242,6 +242,11 @@ inline const char *espcontrol_i18n_cs(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Seskupení se nezdařilo";
   if (std::strcmp(text, "Speakers updated") == 0) return "Reproduktory aktualizovány";
   if (std::strcmp(text, "Updating speakers") == 0) return "Aktualizace reproduktorů";
+  if (std::strcmp(text, "Information") == 0) return "Informace";
+  if (std::strcmp(text, "Warning") == 0) return "Varování";
+  if (std::strcmp(text, "Alert") == 0) return "Výstraha";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Potvrdit";
+  if (std::strcmp(text, "No message") == 0) return "Žádná zpráva";
   return text;
 }
 
@@ -466,6 +471,10 @@ inline const char *espcontrol_i18n_da(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Gruppering mislykkedes";
   if (std::strcmp(text, "Speakers updated") == 0) return "Højttalere opdateret";
   if (std::strcmp(text, "Updating speakers") == 0) return "Opdaterer højttalere";
+  if (std::strcmp(text, "Warning") == 0) return "Advarsel";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Kvittér";
+  if (std::strcmp(text, "No message") == 0) return "Ingen besked";
   return text;
 }
 
@@ -688,6 +697,10 @@ inline const char *espcontrol_i18n_de(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Gruppierung fehlgeschlagen";
   if (std::strcmp(text, "Speakers updated") == 0) return "Lautsprecher aktualisiert";
   if (std::strcmp(text, "Updating speakers") == 0) return "Lautsprecher werden aktualisiert";
+  if (std::strcmp(text, "Warning") == 0) return "Warnung";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Bestätigen";
+  if (std::strcmp(text, "No message") == 0) return "Keine Nachricht";
   return text;
 }
 
@@ -917,6 +930,11 @@ inline const char *espcontrol_i18n_es(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Error al agrupar";
   if (std::strcmp(text, "Speakers updated") == 0) return "Altavoces actualizados";
   if (std::strcmp(text, "Updating speakers") == 0) return "Actualizando altavoces";
+  if (std::strcmp(text, "Information") == 0) return "Información";
+  if (std::strcmp(text, "Warning") == 0) return "Advertencia";
+  if (std::strcmp(text, "Alert") == 0) return "Alerta";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(text, "No message") == 0) return "Sin mensaje";
   return text;
 }
 
@@ -1156,6 +1174,11 @@ inline const char *espcontrol_i18n_fi(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Ryhmittely epäonnistui";
   if (std::strcmp(text, "Speakers updated") == 0) return "Kaiuttimet päivitetty";
   if (std::strcmp(text, "Updating speakers") == 0) return "Päivitetään kaiuttimia";
+  if (std::strcmp(text, "Information") == 0) return "Tiedote";
+  if (std::strcmp(text, "Warning") == 0) return "Varoitus";
+  if (std::strcmp(text, "Alert") == 0) return "Hälytys";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Kuittaa";
+  if (std::strcmp(text, "No message") == 0) return "Ei viestiä";
   return text;
 }
 
@@ -1378,6 +1401,10 @@ inline const char *espcontrol_i18n_fr(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Échec du regroupement";
   if (std::strcmp(text, "Speakers updated") == 0) return "Enceintes mises à jour";
   if (std::strcmp(text, "Updating speakers") == 0) return "Mise à jour des enceintes";
+  if (std::strcmp(text, "Warning") == 0) return "Avertissement";
+  if (std::strcmp(text, "Alert") == 0) return "Alerte";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Acquitter";
+  if (std::strcmp(text, "No message") == 0) return "Aucun message";
   return text;
 }
 
@@ -1625,6 +1652,11 @@ inline const char *espcontrol_i18n_he(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "הקיבוץ נכשל";
   if (std::strcmp(text, "Speakers updated") == 0) return "הרמקולים עודכנו";
   if (std::strcmp(text, "Updating speakers") == 0) return "מעדכן רמקולים";
+  if (std::strcmp(text, "Information") == 0) return "מידע";
+  if (std::strcmp(text, "Warning") == 0) return "אזהרה";
+  if (std::strcmp(text, "Alert") == 0) return "התראה";
+  if (std::strcmp(text, "Acknowledge") == 0) return "אישור";
+  if (std::strcmp(text, "No message") == 0) return "אין הודעה";
   return text;
 }
 
@@ -1864,6 +1896,11 @@ inline const char *espcontrol_i18n_hu(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "A csoportosítás sikertelen";
   if (std::strcmp(text, "Speakers updated") == 0) return "Hangszórók frissítve";
   if (std::strcmp(text, "Updating speakers") == 0) return "Hangszórók frissítése";
+  if (std::strcmp(text, "Information") == 0) return "Információ";
+  if (std::strcmp(text, "Warning") == 0) return "Figyelmeztetés";
+  if (std::strcmp(text, "Alert") == 0) return "Riasztás";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Nyugtázás";
+  if (std::strcmp(text, "No message") == 0) return "Nincs üzenet";
   return text;
 }
 
@@ -2094,6 +2131,11 @@ inline const char *espcontrol_i18n_it(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Raggruppamento non riuscito";
   if (std::strcmp(text, "Speakers updated") == 0) return "Altoparlanti aggiornati";
   if (std::strcmp(text, "Updating speakers") == 0) return "Aggiornamento altoparlanti";
+  if (std::strcmp(text, "Information") == 0) return "Informazione";
+  if (std::strcmp(text, "Warning") == 0) return "Avviso";
+  if (std::strcmp(text, "Alert") == 0) return "Allarme";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Conferma";
+  if (std::strcmp(text, "No message") == 0) return "Nessun messaggio";
   return text;
 }
 
@@ -2321,6 +2363,11 @@ inline const char *espcontrol_i18n_nb(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Gruppering mislyktes";
   if (std::strcmp(text, "Speakers updated") == 0) return "Høyttalere oppdatert";
   if (std::strcmp(text, "Updating speakers") == 0) return "Oppdaterer høyttalere";
+  if (std::strcmp(text, "Information") == 0) return "Informasjon";
+  if (std::strcmp(text, "Warning") == 0) return "Advarsel";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Kvitter";
+  if (std::strcmp(text, "No message") == 0) return "Ingen melding";
   return text;
 }
 
@@ -2549,6 +2596,11 @@ inline const char *espcontrol_i18n_nl(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Groeperen mislukt";
   if (std::strcmp(text, "Speakers updated") == 0) return "Luidsprekers bijgewerkt";
   if (std::strcmp(text, "Updating speakers") == 0) return "Luidsprekers bijwerken";
+  if (std::strcmp(text, "Information") == 0) return "Informatie";
+  if (std::strcmp(text, "Warning") == 0) return "Waarschuwing";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Bevestigen";
+  if (std::strcmp(text, "No message") == 0) return "Geen bericht";
   return text;
 }
 
@@ -2776,6 +2828,11 @@ inline const char *espcontrol_i18n_pl(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Grupowanie nie powiodło się";
   if (std::strcmp(text, "Speakers updated") == 0) return "Głośniki zaktualizowane";
   if (std::strcmp(text, "Updating speakers") == 0) return "Aktualizowanie głośników";
+  if (std::strcmp(text, "Information") == 0) return "Informacja";
+  if (std::strcmp(text, "Warning") == 0) return "Ostrzeżenie";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Potwierdź";
+  if (std::strcmp(text, "No message") == 0) return "Brak wiadomości";
   return text;
 }
 
@@ -3005,6 +3062,11 @@ inline const char *espcontrol_i18n_pt_br(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Falha ao agrupar";
   if (std::strcmp(text, "Speakers updated") == 0) return "Alto-falantes atualizados";
   if (std::strcmp(text, "Updating speakers") == 0) return "Atualizando alto-falantes";
+  if (std::strcmp(text, "Information") == 0) return "Informação";
+  if (std::strcmp(text, "Warning") == 0) return "Aviso";
+  if (std::strcmp(text, "Alert") == 0) return "Alerta";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(text, "No message") == 0) return "Sem mensagem";
   return text;
 }
 
@@ -3235,6 +3297,11 @@ inline const char *espcontrol_i18n_pt(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Falha ao agrupar";
   if (std::strcmp(text, "Speakers updated") == 0) return "Colunas atualizadas";
   if (std::strcmp(text, "Updating speakers") == 0) return "A atualizar colunas";
+  if (std::strcmp(text, "Information") == 0) return "Informação";
+  if (std::strcmp(text, "Warning") == 0) return "Aviso";
+  if (std::strcmp(text, "Alert") == 0) return "Alerta";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(text, "No message") == 0) return "Sem mensagem";
   return text;
 }
 
@@ -3474,6 +3541,11 @@ inline const char *espcontrol_i18n_ro(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Gruparea a eșuat";
   if (std::strcmp(text, "Speakers updated") == 0) return "Difuzoare actualizate";
   if (std::strcmp(text, "Updating speakers") == 0) return "Se actualizează difuzoarele";
+  if (std::strcmp(text, "Information") == 0) return "Informație";
+  if (std::strcmp(text, "Warning") == 0) return "Avertisment";
+  if (std::strcmp(text, "Alert") == 0) return "Alertă";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Confirmă";
+  if (std::strcmp(text, "No message") == 0) return "Niciun mesaj";
   return text;
 }
 
@@ -3720,6 +3792,11 @@ inline const char *espcontrol_i18n_ru(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Не удалось сгруппировать";
   if (std::strcmp(text, "Speakers updated") == 0) return "Динамики обновлены";
   if (std::strcmp(text, "Updating speakers") == 0) return "Обновление динамиков";
+  if (std::strcmp(text, "Information") == 0) return "Информация";
+  if (std::strcmp(text, "Warning") == 0) return "Предупреждение";
+  if (std::strcmp(text, "Alert") == 0) return "Тревога";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Подтвердить";
+  if (std::strcmp(text, "No message") == 0) return "Нет сообщения";
   return text;
 }
 
@@ -3951,6 +4028,11 @@ inline const char *espcontrol_i18n_sk(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Zoskupenie zlyhalo";
   if (std::strcmp(text, "Speakers updated") == 0) return "Reproduktory aktualizované";
   if (std::strcmp(text, "Updating speakers") == 0) return "Aktualizácia reproduktorov";
+  if (std::strcmp(text, "Information") == 0) return "Informácia";
+  if (std::strcmp(text, "Warning") == 0) return "Varovanie";
+  if (std::strcmp(text, "Alert") == 0) return "Výstraha";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Potvrdiť";
+  if (std::strcmp(text, "No message") == 0) return "Žiadna správa";
   return text;
 }
 
@@ -4186,6 +4268,11 @@ inline const char *espcontrol_i18n_sl(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Združevanje ni uspelo";
   if (std::strcmp(text, "Speakers updated") == 0) return "Zvočniki posodobljeni";
   if (std::strcmp(text, "Updating speakers") == 0) return "Posodabljanje zvočnikov";
+  if (std::strcmp(text, "Information") == 0) return "Informacija";
+  if (std::strcmp(text, "Warning") == 0) return "Opozorilo";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Potrdi";
+  if (std::strcmp(text, "No message") == 0) return "Ni sporočila";
   return text;
 }
 
@@ -4413,6 +4500,10 @@ inline const char *espcontrol_i18n_sv(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Gruppering misslyckades";
   if (std::strcmp(text, "Speakers updated") == 0) return "Högtalare uppdaterade";
   if (std::strcmp(text, "Updating speakers") == 0) return "Uppdaterar högtalare";
+  if (std::strcmp(text, "Warning") == 0) return "Varning";
+  if (std::strcmp(text, "Alert") == 0) return "Larm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Bekräfta";
+  if (std::strcmp(text, "No message") == 0) return "Inget meddelande";
   return text;
 }
 
@@ -4652,6 +4743,11 @@ inline const char *espcontrol_i18n_tr(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Gruplama başarısız";
   if (std::strcmp(text, "Speakers updated") == 0) return "Hoparlörler güncellendi";
   if (std::strcmp(text, "Updating speakers") == 0) return "Hoparlörler güncelleniyor";
+  if (std::strcmp(text, "Information") == 0) return "Bilgi";
+  if (std::strcmp(text, "Warning") == 0) return "Uyarı";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Onayla";
+  if (std::strcmp(text, "No message") == 0) return "Mesaj yok";
   return text;
 }
 
@@ -4893,6 +4989,11 @@ inline const char *espcontrol_i18n_uk(const char *text) {
   if (std::strcmp(text, "Grouping failed") == 0) return "Не вдалося згрупувати";
   if (std::strcmp(text, "Speakers updated") == 0) return "Динаміки оновлено";
   if (std::strcmp(text, "Updating speakers") == 0) return "Оновлення динаміків";
+  if (std::strcmp(text, "Information") == 0) return "Інформація";
+  if (std::strcmp(text, "Warning") == 0) return "Попередження";
+  if (std::strcmp(text, "Alert") == 0) return "Тривога";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Підтвердити";
+  if (std::strcmp(text, "No message") == 0) return "Немає повідомлення";
   return text;
 }
 
@@ -5142,6 +5243,11 @@ inline const char *espcontrol_i18n_key_en(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Grouping failed";
   if (std::strcmp(key, "speakers_updated") == 0) return "Speakers updated";
   if (std::strcmp(key, "updating_speakers") == 0) return "Updating speakers";
+  if (std::strcmp(key, "information") == 0) return "Information";
+  if (std::strcmp(key, "warning") == 0) return "Warning";
+  if (std::strcmp(key, "alert") == 0) return "Alert";
+  if (std::strcmp(key, "acknowledge") == 0) return "Acknowledge";
+  if (std::strcmp(key, "no_message") == 0) return "No message";
   return key;
 }
 
@@ -5373,6 +5479,11 @@ inline const char *espcontrol_i18n_key_cs(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Seskupení se nezdařilo";
   if (std::strcmp(key, "speakers_updated") == 0) return "Reproduktory aktualizovány";
   if (std::strcmp(key, "updating_speakers") == 0) return "Aktualizace reproduktorů";
+  if (std::strcmp(key, "information") == 0) return "Informace";
+  if (std::strcmp(key, "warning") == 0) return "Varování";
+  if (std::strcmp(key, "alert") == 0) return "Výstraha";
+  if (std::strcmp(key, "acknowledge") == 0) return "Potvrdit";
+  if (std::strcmp(key, "no_message") == 0) return "Žádná zpráva";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -5598,6 +5709,10 @@ inline const char *espcontrol_i18n_key_da(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Gruppering mislykkedes";
   if (std::strcmp(key, "speakers_updated") == 0) return "Højttalere opdateret";
   if (std::strcmp(key, "updating_speakers") == 0) return "Opdaterer højttalere";
+  if (std::strcmp(key, "warning") == 0) return "Advarsel";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Kvittér";
+  if (std::strcmp(key, "no_message") == 0) return "Ingen besked";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -5821,6 +5936,10 @@ inline const char *espcontrol_i18n_key_de(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Gruppierung fehlgeschlagen";
   if (std::strcmp(key, "speakers_updated") == 0) return "Lautsprecher aktualisiert";
   if (std::strcmp(key, "updating_speakers") == 0) return "Lautsprecher werden aktualisiert";
+  if (std::strcmp(key, "warning") == 0) return "Warnung";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Bestätigen";
+  if (std::strcmp(key, "no_message") == 0) return "Keine Nachricht";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -6051,6 +6170,11 @@ inline const char *espcontrol_i18n_key_es(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Error al agrupar";
   if (std::strcmp(key, "speakers_updated") == 0) return "Altavoces actualizados";
   if (std::strcmp(key, "updating_speakers") == 0) return "Actualizando altavoces";
+  if (std::strcmp(key, "information") == 0) return "Información";
+  if (std::strcmp(key, "warning") == 0) return "Advertencia";
+  if (std::strcmp(key, "alert") == 0) return "Alerta";
+  if (std::strcmp(key, "acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(key, "no_message") == 0) return "Sin mensaje";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -6291,6 +6415,11 @@ inline const char *espcontrol_i18n_key_fi(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Ryhmittely epäonnistui";
   if (std::strcmp(key, "speakers_updated") == 0) return "Kaiuttimet päivitetty";
   if (std::strcmp(key, "updating_speakers") == 0) return "Päivitetään kaiuttimia";
+  if (std::strcmp(key, "information") == 0) return "Tiedote";
+  if (std::strcmp(key, "warning") == 0) return "Varoitus";
+  if (std::strcmp(key, "alert") == 0) return "Hälytys";
+  if (std::strcmp(key, "acknowledge") == 0) return "Kuittaa";
+  if (std::strcmp(key, "no_message") == 0) return "Ei viestiä";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -6514,6 +6643,10 @@ inline const char *espcontrol_i18n_key_fr(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Échec du regroupement";
   if (std::strcmp(key, "speakers_updated") == 0) return "Enceintes mises à jour";
   if (std::strcmp(key, "updating_speakers") == 0) return "Mise à jour des enceintes";
+  if (std::strcmp(key, "warning") == 0) return "Avertissement";
+  if (std::strcmp(key, "alert") == 0) return "Alerte";
+  if (std::strcmp(key, "acknowledge") == 0) return "Acquitter";
+  if (std::strcmp(key, "no_message") == 0) return "Aucun message";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -6762,6 +6895,11 @@ inline const char *espcontrol_i18n_key_he(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "הקיבוץ נכשל";
   if (std::strcmp(key, "speakers_updated") == 0) return "הרמקולים עודכנו";
   if (std::strcmp(key, "updating_speakers") == 0) return "מעדכן רמקולים";
+  if (std::strcmp(key, "information") == 0) return "מידע";
+  if (std::strcmp(key, "warning") == 0) return "אזהרה";
+  if (std::strcmp(key, "alert") == 0) return "התראה";
+  if (std::strcmp(key, "acknowledge") == 0) return "אישור";
+  if (std::strcmp(key, "no_message") == 0) return "אין הודעה";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -7002,6 +7140,11 @@ inline const char *espcontrol_i18n_key_hu(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "A csoportosítás sikertelen";
   if (std::strcmp(key, "speakers_updated") == 0) return "Hangszórók frissítve";
   if (std::strcmp(key, "updating_speakers") == 0) return "Hangszórók frissítése";
+  if (std::strcmp(key, "information") == 0) return "Információ";
+  if (std::strcmp(key, "warning") == 0) return "Figyelmeztetés";
+  if (std::strcmp(key, "alert") == 0) return "Riasztás";
+  if (std::strcmp(key, "acknowledge") == 0) return "Nyugtázás";
+  if (std::strcmp(key, "no_message") == 0) return "Nincs üzenet";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -7233,6 +7376,11 @@ inline const char *espcontrol_i18n_key_it(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Raggruppamento non riuscito";
   if (std::strcmp(key, "speakers_updated") == 0) return "Altoparlanti aggiornati";
   if (std::strcmp(key, "updating_speakers") == 0) return "Aggiornamento altoparlanti";
+  if (std::strcmp(key, "information") == 0) return "Informazione";
+  if (std::strcmp(key, "warning") == 0) return "Avviso";
+  if (std::strcmp(key, "alert") == 0) return "Allarme";
+  if (std::strcmp(key, "acknowledge") == 0) return "Conferma";
+  if (std::strcmp(key, "no_message") == 0) return "Nessun messaggio";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -7461,6 +7609,11 @@ inline const char *espcontrol_i18n_key_nb(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Gruppering mislyktes";
   if (std::strcmp(key, "speakers_updated") == 0) return "Høyttalere oppdatert";
   if (std::strcmp(key, "updating_speakers") == 0) return "Oppdaterer høyttalere";
+  if (std::strcmp(key, "information") == 0) return "Informasjon";
+  if (std::strcmp(key, "warning") == 0) return "Advarsel";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Kvitter";
+  if (std::strcmp(key, "no_message") == 0) return "Ingen melding";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -7689,6 +7842,11 @@ inline const char *espcontrol_i18n_key_nl(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Groeperen mislukt";
   if (std::strcmp(key, "speakers_updated") == 0) return "Luidsprekers bijgewerkt";
   if (std::strcmp(key, "updating_speakers") == 0) return "Luidsprekers bijwerken";
+  if (std::strcmp(key, "information") == 0) return "Informatie";
+  if (std::strcmp(key, "warning") == 0) return "Waarschuwing";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Bevestigen";
+  if (std::strcmp(key, "no_message") == 0) return "Geen bericht";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -7917,6 +8075,11 @@ inline const char *espcontrol_i18n_key_pl(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Grupowanie nie powiodło się";
   if (std::strcmp(key, "speakers_updated") == 0) return "Głośniki zaktualizowane";
   if (std::strcmp(key, "updating_speakers") == 0) return "Aktualizowanie głośników";
+  if (std::strcmp(key, "information") == 0) return "Informacja";
+  if (std::strcmp(key, "warning") == 0) return "Ostrzeżenie";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Potwierdź";
+  if (std::strcmp(key, "no_message") == 0) return "Brak wiadomości";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -8147,6 +8310,11 @@ inline const char *espcontrol_i18n_key_pt_br(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Falha ao agrupar";
   if (std::strcmp(key, "speakers_updated") == 0) return "Alto-falantes atualizados";
   if (std::strcmp(key, "updating_speakers") == 0) return "Atualizando alto-falantes";
+  if (std::strcmp(key, "information") == 0) return "Informação";
+  if (std::strcmp(key, "warning") == 0) return "Aviso";
+  if (std::strcmp(key, "alert") == 0) return "Alerta";
+  if (std::strcmp(key, "acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(key, "no_message") == 0) return "Sem mensagem";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -8378,6 +8546,11 @@ inline const char *espcontrol_i18n_key_pt(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Falha ao agrupar";
   if (std::strcmp(key, "speakers_updated") == 0) return "Colunas atualizadas";
   if (std::strcmp(key, "updating_speakers") == 0) return "A atualizar colunas";
+  if (std::strcmp(key, "information") == 0) return "Informação";
+  if (std::strcmp(key, "warning") == 0) return "Aviso";
+  if (std::strcmp(key, "alert") == 0) return "Alerta";
+  if (std::strcmp(key, "acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(key, "no_message") == 0) return "Sem mensagem";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -8618,6 +8791,11 @@ inline const char *espcontrol_i18n_key_ro(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Gruparea a eșuat";
   if (std::strcmp(key, "speakers_updated") == 0) return "Difuzoare actualizate";
   if (std::strcmp(key, "updating_speakers") == 0) return "Se actualizează difuzoarele";
+  if (std::strcmp(key, "information") == 0) return "Informație";
+  if (std::strcmp(key, "warning") == 0) return "Avertisment";
+  if (std::strcmp(key, "alert") == 0) return "Alertă";
+  if (std::strcmp(key, "acknowledge") == 0) return "Confirmă";
+  if (std::strcmp(key, "no_message") == 0) return "Niciun mesaj";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -8865,6 +9043,11 @@ inline const char *espcontrol_i18n_key_ru(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Не удалось сгруппировать";
   if (std::strcmp(key, "speakers_updated") == 0) return "Динамики обновлены";
   if (std::strcmp(key, "updating_speakers") == 0) return "Обновление динамиков";
+  if (std::strcmp(key, "information") == 0) return "Информация";
+  if (std::strcmp(key, "warning") == 0) return "Предупреждение";
+  if (std::strcmp(key, "alert") == 0) return "Тревога";
+  if (std::strcmp(key, "acknowledge") == 0) return "Подтвердить";
+  if (std::strcmp(key, "no_message") == 0) return "Нет сообщения";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -9097,6 +9280,11 @@ inline const char *espcontrol_i18n_key_sk(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Zoskupenie zlyhalo";
   if (std::strcmp(key, "speakers_updated") == 0) return "Reproduktory aktualizované";
   if (std::strcmp(key, "updating_speakers") == 0) return "Aktualizácia reproduktorov";
+  if (std::strcmp(key, "information") == 0) return "Informácia";
+  if (std::strcmp(key, "warning") == 0) return "Varovanie";
+  if (std::strcmp(key, "alert") == 0) return "Výstraha";
+  if (std::strcmp(key, "acknowledge") == 0) return "Potvrdiť";
+  if (std::strcmp(key, "no_message") == 0) return "Žiadna správa";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -9333,6 +9521,11 @@ inline const char *espcontrol_i18n_key_sl(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Združevanje ni uspelo";
   if (std::strcmp(key, "speakers_updated") == 0) return "Zvočniki posodobljeni";
   if (std::strcmp(key, "updating_speakers") == 0) return "Posodabljanje zvočnikov";
+  if (std::strcmp(key, "information") == 0) return "Informacija";
+  if (std::strcmp(key, "warning") == 0) return "Opozorilo";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Potrdi";
+  if (std::strcmp(key, "no_message") == 0) return "Ni sporočila";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -9561,6 +9754,10 @@ inline const char *espcontrol_i18n_key_sv(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Gruppering misslyckades";
   if (std::strcmp(key, "speakers_updated") == 0) return "Högtalare uppdaterade";
   if (std::strcmp(key, "updating_speakers") == 0) return "Uppdaterar högtalare";
+  if (std::strcmp(key, "warning") == 0) return "Varning";
+  if (std::strcmp(key, "alert") == 0) return "Larm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Bekräfta";
+  if (std::strcmp(key, "no_message") == 0) return "Inget meddelande";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -9801,6 +9998,11 @@ inline const char *espcontrol_i18n_key_tr(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Gruplama başarısız";
   if (std::strcmp(key, "speakers_updated") == 0) return "Hoparlörler güncellendi";
   if (std::strcmp(key, "updating_speakers") == 0) return "Hoparlörler güncelleniyor";
+  if (std::strcmp(key, "information") == 0) return "Bilgi";
+  if (std::strcmp(key, "warning") == 0) return "Uyarı";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Onayla";
+  if (std::strcmp(key, "no_message") == 0) return "Mesaj yok";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -10043,6 +10245,11 @@ inline const char *espcontrol_i18n_key_uk(const char *key) {
   if (std::strcmp(key, "grouping_failed") == 0) return "Не вдалося згрупувати";
   if (std::strcmp(key, "speakers_updated") == 0) return "Динаміки оновлено";
   if (std::strcmp(key, "updating_speakers") == 0) return "Оновлення динаміків";
+  if (std::strcmp(key, "information") == 0) return "Інформація";
+  if (std::strcmp(key, "warning") == 0) return "Попередження";
+  if (std::strcmp(key, "alert") == 0) return "Тривога";
+  if (std::strcmp(key, "acknowledge") == 0) return "Підтвердити";
+  if (std::strcmp(key, "no_message") == 0) return "Немає повідомлення";
   return espcontrol_i18n_key_en(key);
 }
 

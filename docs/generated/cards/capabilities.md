@@ -50,4 +50,5 @@ This generated reference lists stable setup facts from the shared card contract.
 | Camera Card | image | camera, image | Yes | Own picker item | Show Label; Show Icon; Expanded Image: fill, fit | Visible |
 | Wifi Sharing | wifi_qr | None | Yes | Own picker item | Network name; Security: wpa, open; Password; Hidden network; Visible Tabs: qr, credentials | Visible |
 | QR Card | wifi_qr_card | None | Yes | Wifi Sharing (wifi_qr) | Network name; Security: wpa, open; Password; Hidden network; Visible Tabs: qr, credentials | Visible |
+| Notification | notification | sensor, text_sensor, binary_sensor | Yes | Own picker item | Level Attribute; Message Attribute; Acknowledge Action | Visible |
 | Weather Forecast | weather_forecast | weather | Yes | Own picker item | None | Hidden |

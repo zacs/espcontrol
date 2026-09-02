@@ -150,6 +150,8 @@ const ICON_GROUPS = {
   'Window Shutter Open': 'Covers & Shading',
 
   'Alarm': 'Security & Access',
+  'Alert': 'General',
+  'Alert Octagon': 'General',
   'Alarm Light': 'Security & Access',
   'Bell': 'Security & Access',
   'Camera': 'Security & Access',
@@ -199,6 +201,7 @@ const ICON_GROUPS = {
   'Current AC': 'Power & Energy',
   'Current DC': 'Power & Energy',
   'Flash': 'Power & Energy',
+  'Information': 'General',
   'Gauge': 'Power & Energy',
   'Gauge Empty': 'Power & Energy',
   'Gauge Full': 'Power & Energy',
