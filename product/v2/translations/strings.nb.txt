@@ -254,3 +254,11 @@ nighttime=Nattetid
 
 timer=Tidtaker
 timer_confirm=Bekreft
+
+# Notification card
+notification=Varsel
+information=Informasjon
+warning=Advarsel
+alert=Alarm
+acknowledge=Kvitter
+no_notifications=Ingen varsler

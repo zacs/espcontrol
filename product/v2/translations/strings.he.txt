@@ -254,3 +254,11 @@ nighttime=לילה
 
 timer=טיימר
 timer_confirm=לאשר
+
+# Notification card
+notification=התראה
+information=מידע
+warning=אזהרה
+alert=התראה
+acknowledge=אישור
+no_notifications=אין התראות

@@ -254,3 +254,11 @@ nighttime=Ніч
 
 timer=Таймер
 timer_confirm=Підтвердити
+
+# Notification card
+notification=Сповіщення
+information=Інформація
+warning=Попередження
+alert=Тривога
+acknowledge=Підтвердити
+no_notifications=Немає сповіщень

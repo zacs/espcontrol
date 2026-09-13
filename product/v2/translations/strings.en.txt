@@ -255,3 +255,11 @@ nighttime=Nighttime
 # Timer card
 timer=Timer
 timer_confirm=Confirm
+
+# Notification card
+notification=Notification
+information=Information
+warning=Warning
+alert=Alert
+acknowledge=Acknowledge
+no_notifications=No notifications

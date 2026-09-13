@@ -250,6 +250,12 @@ inline const char *espcontrol_i18n_cs(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Noc";
   if (std::strcmp(text, "Timer") == 0) return "Časovač";
   if (std::strcmp(text, "Confirm") == 0) return "Potvrdit";
+  if (std::strcmp(text, "Notification") == 0) return "Oznámení";
+  if (std::strcmp(text, "Information") == 0) return "Informace";
+  if (std::strcmp(text, "Warning") == 0) return "Varování";
+  if (std::strcmp(text, "Alert") == 0) return "Výstraha";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Potvrdit";
+  if (std::strcmp(text, "No notifications") == 0) return "Žádná oznámení";
   return text;
 }
 
@@ -481,6 +487,11 @@ inline const char *espcontrol_i18n_da(const char *text) {
   if (std::strcmp(text, "Daytime") == 0) return "Dagtid";
   if (std::strcmp(text, "Nighttime") == 0) return "Nattetid";
   if (std::strcmp(text, "Confirm") == 0) return "Bekræft";
+  if (std::strcmp(text, "Notification") == 0) return "Notifikation";
+  if (std::strcmp(text, "Warning") == 0) return "Advarsel";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Kvittér";
+  if (std::strcmp(text, "No notifications") == 0) return "Ingen notifikationer";
   return text;
 }
 
@@ -710,6 +721,11 @@ inline const char *espcontrol_i18n_de(const char *text) {
   if (std::strcmp(text, "Daytime") == 0) return "Tagsüber";
   if (std::strcmp(text, "Nighttime") == 0) return "Nachts";
   if (std::strcmp(text, "Confirm") == 0) return "Bestätigen";
+  if (std::strcmp(text, "Notification") == 0) return "Benachrichtigung";
+  if (std::strcmp(text, "Warning") == 0) return "Warnung";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Bestätigen";
+  if (std::strcmp(text, "No notifications") == 0) return "Keine Benachrichtigungen";
   return text;
 }
 
@@ -947,6 +963,12 @@ inline const char *espcontrol_i18n_es(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Noche";
   if (std::strcmp(text, "Timer") == 0) return "Temporizador";
   if (std::strcmp(text, "Confirm") == 0) return "Confirmar";
+  if (std::strcmp(text, "Notification") == 0) return "Notificación";
+  if (std::strcmp(text, "Information") == 0) return "Información";
+  if (std::strcmp(text, "Warning") == 0) return "Advertencia";
+  if (std::strcmp(text, "Alert") == 0) return "Alerta";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(text, "No notifications") == 0) return "Sin notificaciones";
   return text;
 }
 
@@ -1194,6 +1216,12 @@ inline const char *espcontrol_i18n_fi(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Yö";
   if (std::strcmp(text, "Timer") == 0) return "Ajastin";
   if (std::strcmp(text, "Confirm") == 0) return "Vahvista";
+  if (std::strcmp(text, "Notification") == 0) return "Ilmoitus";
+  if (std::strcmp(text, "Information") == 0) return "Tiedote";
+  if (std::strcmp(text, "Warning") == 0) return "Varoitus";
+  if (std::strcmp(text, "Alert") == 0) return "Hälytys";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Kuittaa";
+  if (std::strcmp(text, "No notifications") == 0) return "Ei ilmoituksia";
   return text;
 }
 
@@ -1424,6 +1452,10 @@ inline const char *espcontrol_i18n_fr(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Nuit";
   if (std::strcmp(text, "Timer") == 0) return "Minuteur";
   if (std::strcmp(text, "Confirm") == 0) return "Confirmer";
+  if (std::strcmp(text, "Warning") == 0) return "Avertissement";
+  if (std::strcmp(text, "Alert") == 0) return "Alerte";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Acquitter";
+  if (std::strcmp(text, "No notifications") == 0) return "Aucune notification";
   return text;
 }
 
@@ -1679,6 +1711,12 @@ inline const char *espcontrol_i18n_he(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "לילה";
   if (std::strcmp(text, "Timer") == 0) return "טיימר";
   if (std::strcmp(text, "Confirm") == 0) return "לאשר";
+  if (std::strcmp(text, "Notification") == 0) return "התראה";
+  if (std::strcmp(text, "Information") == 0) return "מידע";
+  if (std::strcmp(text, "Warning") == 0) return "אזהרה";
+  if (std::strcmp(text, "Alert") == 0) return "התראה";
+  if (std::strcmp(text, "Acknowledge") == 0) return "אישור";
+  if (std::strcmp(text, "No notifications") == 0) return "אין התראות";
   return text;
 }
 
@@ -1926,6 +1964,12 @@ inline const char *espcontrol_i18n_hu(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Éjszaka";
   if (std::strcmp(text, "Timer") == 0) return "Időzítő";
   if (std::strcmp(text, "Confirm") == 0) return "Megerősítés";
+  if (std::strcmp(text, "Notification") == 0) return "Értesítés";
+  if (std::strcmp(text, "Information") == 0) return "Információ";
+  if (std::strcmp(text, "Warning") == 0) return "Figyelmeztetés";
+  if (std::strcmp(text, "Alert") == 0) return "Riasztás";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Nyugtázás";
+  if (std::strcmp(text, "No notifications") == 0) return "Nincsenek értesítések";
   return text;
 }
 
@@ -2163,6 +2207,12 @@ inline const char *espcontrol_i18n_it(const char *text) {
   if (std::strcmp(text, "Daytime") == 0) return "Giorno";
   if (std::strcmp(text, "Nighttime") == 0) return "Notte";
   if (std::strcmp(text, "Confirm") == 0) return "Confermare";
+  if (std::strcmp(text, "Notification") == 0) return "Notifica";
+  if (std::strcmp(text, "Information") == 0) return "Informazione";
+  if (std::strcmp(text, "Warning") == 0) return "Avviso";
+  if (std::strcmp(text, "Alert") == 0) return "Allarme";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Conferma";
+  if (std::strcmp(text, "No notifications") == 0) return "Nessuna notifica";
   return text;
 }
 
@@ -2398,6 +2448,12 @@ inline const char *espcontrol_i18n_nb(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Nattetid";
   if (std::strcmp(text, "Timer") == 0) return "Tidtaker";
   if (std::strcmp(text, "Confirm") == 0) return "Bekreft";
+  if (std::strcmp(text, "Notification") == 0) return "Varsel";
+  if (std::strcmp(text, "Information") == 0) return "Informasjon";
+  if (std::strcmp(text, "Warning") == 0) return "Advarsel";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Kvitter";
+  if (std::strcmp(text, "No notifications") == 0) return "Ingen varsler";
   return text;
 }
 
@@ -2633,6 +2689,12 @@ inline const char *espcontrol_i18n_nl(const char *text) {
   if (std::strcmp(text, "Daytime") == 0) return "Overdag";
   if (std::strcmp(text, "Nighttime") == 0) return "Nacht";
   if (std::strcmp(text, "Confirm") == 0) return "Bevestigen";
+  if (std::strcmp(text, "Notification") == 0) return "Melding";
+  if (std::strcmp(text, "Information") == 0) return "Informatie";
+  if (std::strcmp(text, "Warning") == 0) return "Waarschuwing";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Bevestigen";
+  if (std::strcmp(text, "No notifications") == 0) return "Geen meldingen";
   return text;
 }
 
@@ -2868,6 +2930,12 @@ inline const char *espcontrol_i18n_pl(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Noc";
   if (std::strcmp(text, "Timer") == 0) return "Minutnik";
   if (std::strcmp(text, "Confirm") == 0) return "Potwierdzić";
+  if (std::strcmp(text, "Notification") == 0) return "Powiadomienie";
+  if (std::strcmp(text, "Information") == 0) return "Informacja";
+  if (std::strcmp(text, "Warning") == 0) return "Ostrzeżenie";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Potwierdź";
+  if (std::strcmp(text, "No notifications") == 0) return "Brak powiadomień";
   return text;
 }
 
@@ -3105,6 +3173,12 @@ inline const char *espcontrol_i18n_pt_br(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Noite";
   if (std::strcmp(text, "Timer") == 0) return "Temporizador";
   if (std::strcmp(text, "Confirm") == 0) return "Confirmar";
+  if (std::strcmp(text, "Notification") == 0) return "Notificação";
+  if (std::strcmp(text, "Information") == 0) return "Informação";
+  if (std::strcmp(text, "Warning") == 0) return "Aviso";
+  if (std::strcmp(text, "Alert") == 0) return "Alerta";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(text, "No notifications") == 0) return "Sem notificações";
   return text;
 }
 
@@ -3343,6 +3417,12 @@ inline const char *espcontrol_i18n_pt(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Noite";
   if (std::strcmp(text, "Timer") == 0) return "Temporizador";
   if (std::strcmp(text, "Confirm") == 0) return "Confirmar";
+  if (std::strcmp(text, "Notification") == 0) return "Notificação";
+  if (std::strcmp(text, "Information") == 0) return "Informação";
+  if (std::strcmp(text, "Warning") == 0) return "Aviso";
+  if (std::strcmp(text, "Alert") == 0) return "Alerta";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(text, "No notifications") == 0) return "Sem notificações";
   return text;
 }
 
@@ -3590,6 +3670,12 @@ inline const char *espcontrol_i18n_ro(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Noapte";
   if (std::strcmp(text, "Timer") == 0) return "Temporizator";
   if (std::strcmp(text, "Confirm") == 0) return "Confirmați";
+  if (std::strcmp(text, "Notification") == 0) return "Notificare";
+  if (std::strcmp(text, "Information") == 0) return "Informație";
+  if (std::strcmp(text, "Warning") == 0) return "Avertisment";
+  if (std::strcmp(text, "Alert") == 0) return "Alertă";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Confirmă";
+  if (std::strcmp(text, "No notifications") == 0) return "Nicio notificare";
   return text;
 }
 
@@ -3844,6 +3930,12 @@ inline const char *espcontrol_i18n_ru(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Ночь";
   if (std::strcmp(text, "Timer") == 0) return "Таймер";
   if (std::strcmp(text, "Confirm") == 0) return "Подтвердить";
+  if (std::strcmp(text, "Notification") == 0) return "Уведомление";
+  if (std::strcmp(text, "Information") == 0) return "Информация";
+  if (std::strcmp(text, "Warning") == 0) return "Предупреждение";
+  if (std::strcmp(text, "Alert") == 0) return "Тревога";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Подтвердить";
+  if (std::strcmp(text, "No notifications") == 0) return "Нет уведомлений";
   return text;
 }
 
@@ -4083,6 +4175,12 @@ inline const char *espcontrol_i18n_sk(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Noc";
   if (std::strcmp(text, "Timer") == 0) return "Časovač";
   if (std::strcmp(text, "Confirm") == 0) return "Potvrdiť";
+  if (std::strcmp(text, "Notification") == 0) return "Oznámenie";
+  if (std::strcmp(text, "Information") == 0) return "Informácia";
+  if (std::strcmp(text, "Warning") == 0) return "Varovanie";
+  if (std::strcmp(text, "Alert") == 0) return "Výstraha";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Potvrdiť";
+  if (std::strcmp(text, "No notifications") == 0) return "Žiadne oznámenia";
   return text;
 }
 
@@ -4326,6 +4424,12 @@ inline const char *espcontrol_i18n_sl(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Noč";
   if (std::strcmp(text, "Timer") == 0) return "Časovnik";
   if (std::strcmp(text, "Confirm") == 0) return "Potrdi";
+  if (std::strcmp(text, "Notification") == 0) return "Obvestilo";
+  if (std::strcmp(text, "Information") == 0) return "Informacija";
+  if (std::strcmp(text, "Warning") == 0) return "Opozorilo";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Potrdi";
+  if (std::strcmp(text, "No notifications") == 0) return "Ni obvestil";
   return text;
 }
 
@@ -4560,6 +4664,11 @@ inline const char *espcontrol_i18n_sv(const char *text) {
   if (std::strcmp(text, "Daytime") == 0) return "Dagtid";
   if (std::strcmp(text, "Nighttime") == 0) return "Nattetid";
   if (std::strcmp(text, "Confirm") == 0) return "Bekräfta";
+  if (std::strcmp(text, "Notification") == 0) return "Avisering";
+  if (std::strcmp(text, "Warning") == 0) return "Varning";
+  if (std::strcmp(text, "Alert") == 0) return "Larm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Bekräfta";
+  if (std::strcmp(text, "No notifications") == 0) return "Inga aviseringar";
   return text;
 }
 
@@ -4807,6 +4916,12 @@ inline const char *espcontrol_i18n_tr(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Gece";
   if (std::strcmp(text, "Timer") == 0) return "Zamanlayıcı";
   if (std::strcmp(text, "Confirm") == 0) return "Onayla";
+  if (std::strcmp(text, "Notification") == 0) return "Bildirim";
+  if (std::strcmp(text, "Information") == 0) return "Bilgi";
+  if (std::strcmp(text, "Warning") == 0) return "Uyarı";
+  if (std::strcmp(text, "Alert") == 0) return "Alarm";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Onayla";
+  if (std::strcmp(text, "No notifications") == 0) return "Bildirim yok";
   return text;
 }
 
@@ -5056,6 +5171,12 @@ inline const char *espcontrol_i18n_uk(const char *text) {
   if (std::strcmp(text, "Nighttime") == 0) return "Ніч";
   if (std::strcmp(text, "Timer") == 0) return "Таймер";
   if (std::strcmp(text, "Confirm") == 0) return "Підтвердити";
+  if (std::strcmp(text, "Notification") == 0) return "Сповіщення";
+  if (std::strcmp(text, "Information") == 0) return "Інформація";
+  if (std::strcmp(text, "Warning") == 0) return "Попередження";
+  if (std::strcmp(text, "Alert") == 0) return "Тривога";
+  if (std::strcmp(text, "Acknowledge") == 0) return "Підтвердити";
+  if (std::strcmp(text, "No notifications") == 0) return "Немає сповіщень";
   return text;
 }
 
@@ -5313,6 +5434,12 @@ inline const char *espcontrol_i18n_key_en(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Nighttime";
   if (std::strcmp(key, "timer") == 0) return "Timer";
   if (std::strcmp(key, "timer_confirm") == 0) return "Confirm";
+  if (std::strcmp(key, "notification") == 0) return "Notification";
+  if (std::strcmp(key, "information") == 0) return "Information";
+  if (std::strcmp(key, "warning") == 0) return "Warning";
+  if (std::strcmp(key, "alert") == 0) return "Alert";
+  if (std::strcmp(key, "acknowledge") == 0) return "Acknowledge";
+  if (std::strcmp(key, "no_notifications") == 0) return "No notifications";
   return key;
 }
 
@@ -5552,6 +5679,12 @@ inline const char *espcontrol_i18n_key_cs(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Noc";
   if (std::strcmp(key, "timer") == 0) return "Časovač";
   if (std::strcmp(key, "timer_confirm") == 0) return "Potvrdit";
+  if (std::strcmp(key, "notification") == 0) return "Oznámení";
+  if (std::strcmp(key, "information") == 0) return "Informace";
+  if (std::strcmp(key, "warning") == 0) return "Varování";
+  if (std::strcmp(key, "alert") == 0) return "Výstraha";
+  if (std::strcmp(key, "acknowledge") == 0) return "Potvrdit";
+  if (std::strcmp(key, "no_notifications") == 0) return "Žádná oznámení";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -5784,6 +5917,11 @@ inline const char *espcontrol_i18n_key_da(const char *key) {
   if (std::strcmp(key, "daytime") == 0) return "Dagtid";
   if (std::strcmp(key, "nighttime") == 0) return "Nattetid";
   if (std::strcmp(key, "timer_confirm") == 0) return "Bekræft";
+  if (std::strcmp(key, "notification") == 0) return "Notifikation";
+  if (std::strcmp(key, "warning") == 0) return "Advarsel";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Kvittér";
+  if (std::strcmp(key, "no_notifications") == 0) return "Ingen notifikationer";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -6014,6 +6152,11 @@ inline const char *espcontrol_i18n_key_de(const char *key) {
   if (std::strcmp(key, "daytime") == 0) return "Tagsüber";
   if (std::strcmp(key, "nighttime") == 0) return "Nachts";
   if (std::strcmp(key, "timer_confirm") == 0) return "Bestätigen";
+  if (std::strcmp(key, "notification") == 0) return "Benachrichtigung";
+  if (std::strcmp(key, "warning") == 0) return "Warnung";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Bestätigen";
+  if (std::strcmp(key, "no_notifications") == 0) return "Keine Benachrichtigungen";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -6252,6 +6395,12 @@ inline const char *espcontrol_i18n_key_es(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Noche";
   if (std::strcmp(key, "timer") == 0) return "Temporizador";
   if (std::strcmp(key, "timer_confirm") == 0) return "Confirmar";
+  if (std::strcmp(key, "notification") == 0) return "Notificación";
+  if (std::strcmp(key, "information") == 0) return "Información";
+  if (std::strcmp(key, "warning") == 0) return "Advertencia";
+  if (std::strcmp(key, "alert") == 0) return "Alerta";
+  if (std::strcmp(key, "acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(key, "no_notifications") == 0) return "Sin notificaciones";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -6500,6 +6649,12 @@ inline const char *espcontrol_i18n_key_fi(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Yö";
   if (std::strcmp(key, "timer") == 0) return "Ajastin";
   if (std::strcmp(key, "timer_confirm") == 0) return "Vahvista";
+  if (std::strcmp(key, "notification") == 0) return "Ilmoitus";
+  if (std::strcmp(key, "information") == 0) return "Tiedote";
+  if (std::strcmp(key, "warning") == 0) return "Varoitus";
+  if (std::strcmp(key, "alert") == 0) return "Hälytys";
+  if (std::strcmp(key, "acknowledge") == 0) return "Kuittaa";
+  if (std::strcmp(key, "no_notifications") == 0) return "Ei ilmoituksia";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -6731,6 +6886,10 @@ inline const char *espcontrol_i18n_key_fr(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Nuit";
   if (std::strcmp(key, "timer") == 0) return "Minuteur";
   if (std::strcmp(key, "timer_confirm") == 0) return "Confirmer";
+  if (std::strcmp(key, "warning") == 0) return "Avertissement";
+  if (std::strcmp(key, "alert") == 0) return "Alerte";
+  if (std::strcmp(key, "acknowledge") == 0) return "Acquitter";
+  if (std::strcmp(key, "no_notifications") == 0) return "Aucune notification";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -6987,6 +7146,12 @@ inline const char *espcontrol_i18n_key_he(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "לילה";
   if (std::strcmp(key, "timer") == 0) return "טיימר";
   if (std::strcmp(key, "timer_confirm") == 0) return "לאשר";
+  if (std::strcmp(key, "notification") == 0) return "התראה";
+  if (std::strcmp(key, "information") == 0) return "מידע";
+  if (std::strcmp(key, "warning") == 0) return "אזהרה";
+  if (std::strcmp(key, "alert") == 0) return "התראה";
+  if (std::strcmp(key, "acknowledge") == 0) return "אישור";
+  if (std::strcmp(key, "no_notifications") == 0) return "אין התראות";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -7235,6 +7400,12 @@ inline const char *espcontrol_i18n_key_hu(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Éjszaka";
   if (std::strcmp(key, "timer") == 0) return "Időzítő";
   if (std::strcmp(key, "timer_confirm") == 0) return "Megerősítés";
+  if (std::strcmp(key, "notification") == 0) return "Értesítés";
+  if (std::strcmp(key, "information") == 0) return "Információ";
+  if (std::strcmp(key, "warning") == 0) return "Figyelmeztetés";
+  if (std::strcmp(key, "alert") == 0) return "Riasztás";
+  if (std::strcmp(key, "acknowledge") == 0) return "Nyugtázás";
+  if (std::strcmp(key, "no_notifications") == 0) return "Nincsenek értesítések";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -7473,6 +7644,12 @@ inline const char *espcontrol_i18n_key_it(const char *key) {
   if (std::strcmp(key, "daytime") == 0) return "Giorno";
   if (std::strcmp(key, "nighttime") == 0) return "Notte";
   if (std::strcmp(key, "timer_confirm") == 0) return "Confermare";
+  if (std::strcmp(key, "notification") == 0) return "Notifica";
+  if (std::strcmp(key, "information") == 0) return "Informazione";
+  if (std::strcmp(key, "warning") == 0) return "Avviso";
+  if (std::strcmp(key, "alert") == 0) return "Allarme";
+  if (std::strcmp(key, "acknowledge") == 0) return "Conferma";
+  if (std::strcmp(key, "no_notifications") == 0) return "Nessuna notifica";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -7709,6 +7886,12 @@ inline const char *espcontrol_i18n_key_nb(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Nattetid";
   if (std::strcmp(key, "timer") == 0) return "Tidtaker";
   if (std::strcmp(key, "timer_confirm") == 0) return "Bekreft";
+  if (std::strcmp(key, "notification") == 0) return "Varsel";
+  if (std::strcmp(key, "information") == 0) return "Informasjon";
+  if (std::strcmp(key, "warning") == 0) return "Advarsel";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Kvitter";
+  if (std::strcmp(key, "no_notifications") == 0) return "Ingen varsler";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -7944,6 +8127,12 @@ inline const char *espcontrol_i18n_key_nl(const char *key) {
   if (std::strcmp(key, "daytime") == 0) return "Overdag";
   if (std::strcmp(key, "nighttime") == 0) return "Nacht";
   if (std::strcmp(key, "timer_confirm") == 0) return "Bevestigen";
+  if (std::strcmp(key, "notification") == 0) return "Melding";
+  if (std::strcmp(key, "information") == 0) return "Informatie";
+  if (std::strcmp(key, "warning") == 0) return "Waarschuwing";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Bevestigen";
+  if (std::strcmp(key, "no_notifications") == 0) return "Geen meldingen";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -8180,6 +8369,12 @@ inline const char *espcontrol_i18n_key_pl(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Noc";
   if (std::strcmp(key, "timer") == 0) return "Minutnik";
   if (std::strcmp(key, "timer_confirm") == 0) return "Potwierdzić";
+  if (std::strcmp(key, "notification") == 0) return "Powiadomienie";
+  if (std::strcmp(key, "information") == 0) return "Informacja";
+  if (std::strcmp(key, "warning") == 0) return "Ostrzeżenie";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Potwierdź";
+  if (std::strcmp(key, "no_notifications") == 0) return "Brak powiadomień";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -8418,6 +8613,12 @@ inline const char *espcontrol_i18n_key_pt_br(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Noite";
   if (std::strcmp(key, "timer") == 0) return "Temporizador";
   if (std::strcmp(key, "timer_confirm") == 0) return "Confirmar";
+  if (std::strcmp(key, "notification") == 0) return "Notificação";
+  if (std::strcmp(key, "information") == 0) return "Informação";
+  if (std::strcmp(key, "warning") == 0) return "Aviso";
+  if (std::strcmp(key, "alert") == 0) return "Alerta";
+  if (std::strcmp(key, "acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(key, "no_notifications") == 0) return "Sem notificações";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -8657,6 +8858,12 @@ inline const char *espcontrol_i18n_key_pt(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Noite";
   if (std::strcmp(key, "timer") == 0) return "Temporizador";
   if (std::strcmp(key, "timer_confirm") == 0) return "Confirmar";
+  if (std::strcmp(key, "notification") == 0) return "Notificação";
+  if (std::strcmp(key, "information") == 0) return "Informação";
+  if (std::strcmp(key, "warning") == 0) return "Aviso";
+  if (std::strcmp(key, "alert") == 0) return "Alerta";
+  if (std::strcmp(key, "acknowledge") == 0) return "Confirmar";
+  if (std::strcmp(key, "no_notifications") == 0) return "Sem notificações";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -8905,6 +9112,12 @@ inline const char *espcontrol_i18n_key_ro(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Noapte";
   if (std::strcmp(key, "timer") == 0) return "Temporizator";
   if (std::strcmp(key, "timer_confirm") == 0) return "Confirmați";
+  if (std::strcmp(key, "notification") == 0) return "Notificare";
+  if (std::strcmp(key, "information") == 0) return "Informație";
+  if (std::strcmp(key, "warning") == 0) return "Avertisment";
+  if (std::strcmp(key, "alert") == 0) return "Alertă";
+  if (std::strcmp(key, "acknowledge") == 0) return "Confirmă";
+  if (std::strcmp(key, "no_notifications") == 0) return "Nicio notificare";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -9160,6 +9373,12 @@ inline const char *espcontrol_i18n_key_ru(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Ночь";
   if (std::strcmp(key, "timer") == 0) return "Таймер";
   if (std::strcmp(key, "timer_confirm") == 0) return "Подтвердить";
+  if (std::strcmp(key, "notification") == 0) return "Уведомление";
+  if (std::strcmp(key, "information") == 0) return "Информация";
+  if (std::strcmp(key, "warning") == 0) return "Предупреждение";
+  if (std::strcmp(key, "alert") == 0) return "Тревога";
+  if (std::strcmp(key, "acknowledge") == 0) return "Подтвердить";
+  if (std::strcmp(key, "no_notifications") == 0) return "Нет уведомлений";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -9400,6 +9619,12 @@ inline const char *espcontrol_i18n_key_sk(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Noc";
   if (std::strcmp(key, "timer") == 0) return "Časovač";
   if (std::strcmp(key, "timer_confirm") == 0) return "Potvrdiť";
+  if (std::strcmp(key, "notification") == 0) return "Oznámenie";
+  if (std::strcmp(key, "information") == 0) return "Informácia";
+  if (std::strcmp(key, "warning") == 0) return "Varovanie";
+  if (std::strcmp(key, "alert") == 0) return "Výstraha";
+  if (std::strcmp(key, "acknowledge") == 0) return "Potvrdiť";
+  if (std::strcmp(key, "no_notifications") == 0) return "Žiadne oznámenia";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -9644,6 +9869,12 @@ inline const char *espcontrol_i18n_key_sl(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Noč";
   if (std::strcmp(key, "timer") == 0) return "Časovnik";
   if (std::strcmp(key, "timer_confirm") == 0) return "Potrdi";
+  if (std::strcmp(key, "notification") == 0) return "Obvestilo";
+  if (std::strcmp(key, "information") == 0) return "Informacija";
+  if (std::strcmp(key, "warning") == 0) return "Opozorilo";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Potrdi";
+  if (std::strcmp(key, "no_notifications") == 0) return "Ni obvestil";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -9879,6 +10110,11 @@ inline const char *espcontrol_i18n_key_sv(const char *key) {
   if (std::strcmp(key, "daytime") == 0) return "Dagtid";
   if (std::strcmp(key, "nighttime") == 0) return "Nattetid";
   if (std::strcmp(key, "timer_confirm") == 0) return "Bekräfta";
+  if (std::strcmp(key, "notification") == 0) return "Avisering";
+  if (std::strcmp(key, "warning") == 0) return "Varning";
+  if (std::strcmp(key, "alert") == 0) return "Larm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Bekräfta";
+  if (std::strcmp(key, "no_notifications") == 0) return "Inga aviseringar";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -10127,6 +10363,12 @@ inline const char *espcontrol_i18n_key_tr(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Gece";
   if (std::strcmp(key, "timer") == 0) return "Zamanlayıcı";
   if (std::strcmp(key, "timer_confirm") == 0) return "Onayla";
+  if (std::strcmp(key, "notification") == 0) return "Bildirim";
+  if (std::strcmp(key, "information") == 0) return "Bilgi";
+  if (std::strcmp(key, "warning") == 0) return "Uyarı";
+  if (std::strcmp(key, "alert") == 0) return "Alarm";
+  if (std::strcmp(key, "acknowledge") == 0) return "Onayla";
+  if (std::strcmp(key, "no_notifications") == 0) return "Bildirim yok";
   return espcontrol_i18n_key_en(key);
 }
 
@@ -10377,6 +10619,12 @@ inline const char *espcontrol_i18n_key_uk(const char *key) {
   if (std::strcmp(key, "nighttime") == 0) return "Ніч";
   if (std::strcmp(key, "timer") == 0) return "Таймер";
   if (std::strcmp(key, "timer_confirm") == 0) return "Підтвердити";
+  if (std::strcmp(key, "notification") == 0) return "Сповіщення";
+  if (std::strcmp(key, "information") == 0) return "Інформація";
+  if (std::strcmp(key, "warning") == 0) return "Попередження";
+  if (std::strcmp(key, "alert") == 0) return "Тривога";
+  if (std::strcmp(key, "acknowledge") == 0) return "Підтвердити";
+  if (std::strcmp(key, "no_notifications") == 0) return "Немає сповіщень";
   return espcontrol_i18n_key_en(key);
 }
 

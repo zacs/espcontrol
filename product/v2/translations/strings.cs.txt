@@ -254,3 +254,11 @@ nighttime=Noc
 
 timer=Časovač
 timer_confirm=Potvrdit
+
+# Notification card
+notification=Oznámení
+information=Informace
+warning=Varování
+alert=Výstraha
+acknowledge=Potvrdit
+no_notifications=Žádná oznámení

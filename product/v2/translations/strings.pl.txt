@@ -254,3 +254,11 @@ nighttime=Noc
 
 timer=Minutnik
 timer_confirm=Potwierdzić
+
+# Notification card
+notification=Powiadomienie
+information=Informacja
+warning=Ostrzeżenie
+alert=Alarm
+acknowledge=Potwierdź
+no_notifications=Brak powiadomień

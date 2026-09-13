@@ -254,3 +254,11 @@ nighttime=Noapte
 
 timer=Temporizator
 timer_confirm=Confirmați
+
+# Notification card
+notification=Notificare
+information=Informație
+warning=Avertisment
+alert=Alertă
+acknowledge=Confirmă
+no_notifications=Nicio notificare

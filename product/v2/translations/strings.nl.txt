@@ -254,3 +254,11 @@ nighttime=Nacht
 
 timer=Timer
 timer_confirm=Bevestigen
+
+# Notification card
+notification=Melding
+information=Informatie
+warning=Waarschuwing
+alert=Alarm
+acknowledge=Bevestigen
+no_notifications=Geen meldingen

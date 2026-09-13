@@ -254,3 +254,11 @@ nighttime=Éjszaka
 
 timer=Időzítő
 timer_confirm=Megerősítés
+
+# Notification card
+notification=Értesítés
+information=Információ
+warning=Figyelmeztetés
+alert=Riasztás
+acknowledge=Nyugtázás
+no_notifications=Nincsenek értesítések

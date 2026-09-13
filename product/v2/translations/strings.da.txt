@@ -254,3 +254,11 @@ nighttime=Nattetid
 
 timer=Timer
 timer_confirm=Bekræft
+
+# Notification card
+notification=Notifikation
+information=Information
+warning=Advarsel
+alert=Alarm
+acknowledge=Kvittér
+no_notifications=Ingen notifikationer

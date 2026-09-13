@@ -254,3 +254,11 @@ nighttime=Notte
 
 timer=Timer
 timer_confirm=Confermare
+
+# Notification card
+notification=Notifica
+information=Informazione
+warning=Avviso
+alert=Allarme
+acknowledge=Conferma
+no_notifications=Nessuna notifica

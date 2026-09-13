@@ -254,3 +254,11 @@ nighttime=Nattetid
 
 timer=Timer
 timer_confirm=Bekräfta
+
+# Notification card
+notification=Avisering
+information=Information
+warning=Varning
+alert=Larm
+acknowledge=Bekräfta
+no_notifications=Inga aviseringar

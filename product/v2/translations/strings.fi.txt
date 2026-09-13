@@ -254,3 +254,11 @@ nighttime=Yö
 
 timer=Ajastin
 timer_confirm=Vahvista
+
+# Notification card
+notification=Ilmoitus
+information=Tiedote
+warning=Varoitus
+alert=Hälytys
+acknowledge=Kuittaa
+no_notifications=Ei ilmoituksia

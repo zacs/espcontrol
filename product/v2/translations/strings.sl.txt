@@ -254,3 +254,11 @@ nighttime=Noč
 
 timer=Časovnik
 timer_confirm=Potrdi
+
+# Notification card
+notification=Obvestilo
+information=Informacija
+warning=Opozorilo
+alert=Alarm
+acknowledge=Potrdi
+no_notifications=Ni obvestil

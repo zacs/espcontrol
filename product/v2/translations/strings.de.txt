@@ -254,3 +254,11 @@ nighttime=Nachts
 
 timer=Timer
 timer_confirm=Bestätigen
+
+# Notification card
+notification=Benachrichtigung
+information=Information
+warning=Warnung
+alert=Alarm
+acknowledge=Bestätigen
+no_notifications=Keine Benachrichtigungen
